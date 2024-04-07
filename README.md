@@ -17,4 +17,4 @@ The building block steps leading to progressive render thinking and appreciation
 - **Async Multi Write, out-of-order render, out-of-order flush:** This fixes the problem in Example 3, where we are no longer waiting for the chunks to be buffered & maintain the order. So everything is flushed as they arrive. The caveat, it gets painted in the wrong order on screen!
 
 ### Example 5:
-- - **Async Multi Write, out-of-order render, out-of-order flush, but in-order-paint:** This fixes the problem in Example 4, where we are no longer waiting for the chunks to be buffered & maintain the order. So everything is flushed as they arrive. But, while in the previous case, where the order of paint was wrong, here the order is maintained. The caveat, it requires JS to work!
+- **Async Multi Write, out-of-order render, out-of-order flush, but in-order-paint:** This fixes the problem in Example 4, where we are no longer waiting for the chunks to be buffered & maintain the order. So everything is flushed as they arrive. But, while in the previous case, where the order of paint was wrong, here the order is maintained. The caveat, it requires JS to work!
