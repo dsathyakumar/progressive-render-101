@@ -1,0 +1,19 @@
+{
+  "name": "progressive-render-async-writer",
+  "version": "1.0.0",
+  "description": "progressive render 101",
+  "scripts": {
+    "example-1-sync-single-write": "node ./src/example-1/example-1-sync-single-write.js",
+    "example-1-sync-multi-write": "node ./src/example-1/example-1-sync-multi-write.js",
+    "example-2-async-multi-write": "node ./src/example-2/example-2-async-multi-write.js",
+    "example-3-sync-multi-write": "node ./src/example-3/example-3-sync-multi-write.js",
+    "example-3-async-multi-write-out-of-order-render-in-order-flush": "node ./src/example-3/example-3-async-multi-write.js",
+    "example-4-async-multi-write-out-of-order-render-and-flush": "node ./src/example-4/async-out-of-order-render-flush.js",
+    "example-5-async-multi-write-out-of-order-render-and-flush-but-in-order-paint": "node ./src/example-5/async-out-of-order-render-flush-in-order-paint.js"
+  },
+  "dependencies": {
+    "async-writer": "^2.1.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
